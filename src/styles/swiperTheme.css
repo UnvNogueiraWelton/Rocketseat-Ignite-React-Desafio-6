@@ -1,0 +1,19 @@
+:root {
+  --swiper-theme: #ffba08;
+}
+
+#swiper-replace .swiper-button-next {
+  color: var(--swiper-theme);
+}
+
+#swiper-replace .swiper-button-prev {
+  color: var(--swiper-theme);
+}
+
+#swiper-replace .swiper-pagination-bullet {
+  background: #999999;
+}
+
+#swiper-replace .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: var(--swiper-theme);
+}
